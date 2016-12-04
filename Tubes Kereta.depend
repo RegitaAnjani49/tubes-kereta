@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1480860404 source:e:\c++\tubes kereta\main.cpp
+	<iostream>
+	"ui.h"
+
+1480861175 source:e:\c++\tubes kereta\kereta.cpp
+	"kereta.h"
+
+1480856256 e:\c++\tubes kereta\kereta.h
+	<iostream>
+
+1480861483 source:e:\c++\tubes kereta\ui.cpp
+	<iostream>
+	"ui.h"
+	"conio.h"
+	"windows.h"
+
+1480857975 e:\c++\tubes kereta\ui.h
+	<iostream>
+	"kereta.h"
+
