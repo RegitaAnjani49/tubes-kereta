@@ -9,13 +9,13 @@
 1480856256 e:\c++\tubes kereta\kereta.h
 	<iostream>
 
-1480861483 source:e:\c++\tubes kereta\ui.cpp
+1480863450 source:e:\c++\tubes kereta\ui.cpp
 	<iostream>
 	"ui.h"
 	"conio.h"
 	"windows.h"
 
-1480857975 e:\c++\tubes kereta\ui.h
+1480862112 e:\c++\tubes kereta\ui.h
 	<iostream>
 	"kereta.h"
 

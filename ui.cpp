@@ -121,8 +121,7 @@ void tambahkereta()
     cin >> x.ID_kereta;
     cout <<"NAMA KERETA               : ";
     cin >> x.nama_kereta;
-    cout <<"ASAL                      : ";
-    cin >> x.asal;
+    x.asal = "Bandung";
     cout <<"TUJUAN                    : ";
     cin >> x.tujuan;
     cout <<"TANGGAL KEBERANGKATAN     : ";
@@ -531,7 +530,10 @@ penumpang search_penumpang(penumpang x)
 
                     Q = nextC(Q);
                 }
-                while (nextC(Q) != nil && stat != true);
+                while (Q != nil && stat != true);
+            } else
+            {
+                y.id_penumpang = -1;
             }
         }
         else
@@ -565,6 +567,11 @@ penumpang search_penumpang(penumpang x)
                     while (Q != nil && stat != true);
 
                 }
+                else
+                {
+                    y.id_penumpang = -1;
+                }
+
                 P = nextP(P);
             }
             while (P != nil && stat != true);
